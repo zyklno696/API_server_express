@@ -1,0 +1,44 @@
+.container{
+    background: ghostwhite;
+    border: 1px solid #ccc;
+}
+
+.gallery{
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.gallery img {
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.list-group-item{
+    background: #ccc;
+    border: 1px solid #ccc;  
+}
+
+.container a{
+    /* display: flex; */
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+span{
+    color: cornflowerblue;
+}
